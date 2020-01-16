@@ -1,0 +1,30 @@
+Try These Before Starting
+These skills will be helpful for you when you start building. Either try them yourself or at least make sure you know how to do it:
+
+1. Two ways to move a div around on the page
+    1.
+    2.
+
+2. Stick a div onto the bottom or top of the page
+    top of page:
+
+    bottom of page:
+
+3. Identify the background color of an existing webpage
+    use inspect element, there is the little dropper that takes a color.
+
+4. Grab the URL for an image from an existing webpage
+    copy link to the address
+
+5. Center an element horizontally
+    Center an element by text-align: center; under the CSS property
+
+6. Identify three ways you can include your CSS styles in a page
+    1. Inline: on the HTML page
+    2. External: With the CSS stylesheet that it is linked to 
+    3. Internal: by adding in the <style></style> tag in the <head> section
+
+7. Understand how to use classes and ids to target CSS at specific elements on the page
+    -A class is less precise than an ID 
+    
+8. Build a very basic form (even if it doesn’t “go” anywhere)
