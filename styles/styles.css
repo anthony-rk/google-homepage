@@ -19,7 +19,14 @@ html {
 /* For the Gmail and Images buttons at the top right  */
 #rightButtons {
     margin-left: 750px;
+    display: inline-block;
+    color: #000;
+    opacity: 0.75;
 
+}
+
+a:hover {
+    color: red;
 }
 
 .rightButtonsSpacing {
@@ -30,6 +37,55 @@ html {
 #miniGrid {
     width: 12px;
 }
+
+#miniCircleProfile {
+    display: inline-block;
+    width: 20px;
+}
+
+#searchBox {
+    margin-top: 20px;
+    width: 400px;
+    height: 33px;
+}
+
+#searchBox:hover {
+    box-shadow: -1px 1px 5px grey;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.08);
+}
+
+#footer a {
+    display: inline-block;
+}
+
+.footerTextBox {
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+.footerTextLeft {
+    float: left;
+    padding-left: 27px;
+    margin: 0 !important;
+    font-size: 10pt;
+    padding-top: 10px;
+}
+
+.footerTextRight {
+    float: right;
+    padding-right: 27px;
+    margin: 0 !important;
+    font-size: 10pt;
+    padding-top: 10px;
+}
+
 /*
 body {
     font-family: arial, helvetica, sans-serif;

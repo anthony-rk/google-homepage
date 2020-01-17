@@ -19,22 +19,48 @@
         <div> 
           <a class="rightButtonsSpacing" href="https://mail.google.com/mail/?tab=wm&amp;ogbl">Gmail</a>
           <a class="rightButtonsSpacing" href="https://www.google.com/imghp?hl=en&amp;tab=wi&amp;ogbl">Images</a>
+          
           <button onclick="location.href='https://www.google.com/intl/en/about/products?tab=wh'" type="button">
             <img class="rightButtonsSpacing button" id="miniGrid" src="images/google_grid.png" href="https://www.google.com/intl/en/about/products?tab=wh" title="Google apps" aria-expanded="false" role="button" tabindex="0">
           </button>
+          <img id="miniCircleProfile" src="images/google_circle_account_img.png" title="Google Account">
         </div>
+        
       </div>
     </div>
     <!-- The Google log in the center of the page -->
     <div class="center">
       <img alt="Google" height="92" id="hplogo" src="images/googlelogo_color_272x92dp.png" style="padding-top: 109px;" width="272">  
     </div>
+
     <!-- The search bar functionality -->
+    <form class="center" action="/action_page.php">
+      <input id="searchBox" type="text" name="FirstName" value="">
+    </form>
+
+    <!-- The Magnifying glass and  microphone at the search bar-->
 
     <!-- Feeling lucky and google search buttons -->
     <div class="center" style="margin-top: 50px;">
       <input class="btn" type="submit" value="Google Search">
       <input class="btn" type="submit" value="I'm Feeling Lucky">
+    </div>
+
+    <!-- The bottom rectangle with some more options -->
+    <div id="footer">
+      <span class="footerTextBox">
+        <a class="footerTextLeft" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Advertising</a>
+        <a class="footerTextLeft" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Business</a>
+        <a class="footerTextLeft" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">How Search Works</a>
+
+        <a class="footerTextRight" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Privacy</a>
+        <a class="footerTextRight" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Terms</a>
+        <a class="footerTextRight" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1">Settings</a>
+      </span>
+      
+      
+      
+
     </div>
     
   </body>
