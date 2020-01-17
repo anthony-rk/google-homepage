@@ -9,6 +9,26 @@ html {
     display: block;
 }
 
+.headerLeft {
+    float: left;
+    padding-left: 27px;
+    margin: 0 !important;
+    font-size: 10pt;
+    padding-top: 10px;
+}
+
+.headerRight {
+    float: right;
+    padding-right: 27px;
+    margin: 0 !important;
+    font-size: 10pt;
+    padding-top: 10px;
+}
+
+#googleImage {
+    padding-top: 10em;
+}
+
 /* For the About and Store at the top left  */
 #hptl a{
     display: inline-block;
@@ -16,12 +36,9 @@ html {
     color: #000;
     opacity: 0.75;
 }
-/* For the Gmail and Images buttons at the top right  */
-#rightButtons {
-    margin-left: 750px;
-    display: inline-block;
-    color: #000;
-    opacity: 0.75;
+
+#hptl img{
+    padding-left: 15px;
 
 }
 
@@ -30,8 +47,8 @@ a:hover {
 }
 
 .rightButtonsSpacing {
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #miniGrid {
@@ -76,6 +93,8 @@ a:hover {
     margin: 0 !important;
     font-size: 10pt;
     padding-top: 10px;
+    color: #000;
+    opacity: 0.75;
 }
 
 .footerTextRight {
@@ -84,6 +103,8 @@ a:hover {
     margin: 0 !important;
     font-size: 10pt;
     padding-top: 10px;
+    color: #000;
+    opacity: 0.75;
 }
 
 /*
